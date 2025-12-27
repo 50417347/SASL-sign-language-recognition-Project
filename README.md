@@ -122,6 +122,10 @@ python app_sasl_gui.py
 I performed error analysis using confusion matrices and real-time testing. Most misclassifications occurred between visually similar signs or when the ROI did not contain a clear hand. I addressed this by enforcing consistent preprocessing, adding a background/SPACE class, applying confidence thresholds, and using temporal stability logic to reduce false positives.
 
 **## Author
-Developed as part of an MSc Computer Science project and extended as a
-production-ready computer vision portfolio project.
+Absolom Muzambi
+Developed as part of an MSc in Computer Science project and extended as a production-ready computer vision portfolio project.
+Computer Vision & Deep Learning Engineer
 
+📧 Email: absolommuzambi@gmail.com
+
+🔗 GitHub: https://github.com/50417347/SASL-sign-language-recognition-Project
