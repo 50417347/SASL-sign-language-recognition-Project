@@ -14,7 +14,7 @@ real-time deployment.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 - Multi-class image classification (**27 classes: SPACE + A–Z**)
 - Transfer learning with **MobileNetV2 / EfficientNet**
 - Robust preprocessing pipeline:
@@ -30,7 +30,7 @@ real-time deployment.
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 - Input size: **224 × 224**
 - Input type: Grayscale images replicated to 3 channels
 - Backbone: **MobileNetV2** (ImageNet pretrained)
@@ -41,7 +41,7 @@ real-time deployment.
 
 ---
 
-## 📊 Evaluation & Results
+##  Evaluation & Results
 - Validation accuracy: **~99%**
 - Classes: **27**
 - Real-time inference: **webcam-based**
@@ -95,6 +95,24 @@ sasl-sign-language-recognition/
 -Designed with consistent preprocessing between training and inference
 -Suitable for extension to TF Lite or TensorFlow Serving
 -Modular code structure for maintainability
+## Application Features (GUI)
+Live Interface
+Webcam feed with ROI overlay
+Real-time prediction & confidence score
+Processed ROI preview (thresholded image)
+Text Construction
+Automatic letter detection
+Word building
+Sentence construction
+Space and backspace controls
+Full-stop detection to finalize sentences
+Spell Checking
+Dynamic word suggestions
+User-selected correction options
+##Translation
+Translates completed sentences into African languages
+API-ready design (translation layer is modular)
+Clear input/output textboxes
 
 ## ▶️ Running the Application
 ```bash
